@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@`5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+    <main>
+        <!-- Sidebar -->
+        <aside class="sidebar" data-sidebar="">
+    
+          <div class="sidebar-info">
+            <figure class="avatar-box">
+              <img src="./assets/images/girl-avatar.avif" alt="Monisha Ravi" width="80">
+            </figure>
+    
+            <div class="info-content">
+              <h1 class="name" title="Monisha Ravi">Monisha Ravi</h1>
+              <p class="title">Data Analyst - Intern |<br> Besant Technologies</p>
+            </div>
+    
+            <button class="info_more-btn" data-sidebar-btn="">
+              <span>Show Contacts</span>
+              <ion-icon name="chevron-down" role="img" class="md hydrated" aria-label="chevron down"></ion-icon>
+            </button>
+          </div>
+    
+          <div class="sidebar-info_more">
+    
+            <div class="separator"></div>
+    
+            <ul class="contacts-list">
+    
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto:www.sihiravi069@gmail.com" class="contact-link">www.sihiravi069@gmail.com</a>
+                </div>
+              </li>
+    
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline" role="img" class="md hydrated" aria-label="phone portrait outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+                  <a href="tel:+918951466195" class="contact-link">+91 8951466195</a>
+                </div>
+              </li>
+    
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline" role="img" class="md hydrated" aria-label="calendar outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+                  <time datetime="2001-02-2001">19 Febuary, 2001</time>
+                </div>
+              </li>
+    
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+                  <address>Bangalore, Karnataka</address>
+                </div>
+              </li>
+    
+            </ul>
+    
+            <div class="separator"></div>
+    
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="https://www.linkedin.com/in/monisha-ravi-bb4639255" class="social-link">
+                  <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+                </a>
+              </li>
+              <!-- <li class="social-item">
+                <a href="https://github.com/Uday21223" class="social-link">
+                  <ion-icon name="logo-github" role="img" class="md hydrated" aria-label="logo github"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://www.instagram.com/fan_boy_of_msd_8603/" class="social-link">
+                  <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+                </a>
+              </li> -->
+            </ul>
+    
+          </div>
+    
+        </aside>
+      
+      
+        <!-- Main Content -->
+        <div class="main-content">
+          <!-- Navbar -->
+          <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link="about">About</button>
+              </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link="resume">Resume</button>
+              </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link="contact">Contact</button>
+              </li>
+            </ul>
+          </nav>
+    
+          <!-- About Section -->
+          <article id="about" class="section active" data-page="about">
+            <header>
+              <h2 class="h2 article-title">About Me</h2>
+            </header>
+            <section class="about-text">
+              <p>
+                I’m a Computer Science graduate from GEC Kushalnagara with a CGPA of 8.23, skilled in Python, SQL, Power BI, and 
+                Excel. I’ve gained practical experience as a Full-Stack Java Developer Intern at Techfortune Technologies, where I developed 
+                web applications using Java, My SQL, HTML, and CSS. Currently, I’m enhancing my skills as a Data Analyst trainee at 
+                Besant Technologies. I excel in problem-solving, critical thinking, and am eager to contribute to a dynamic team.
+              </p>
+            </section>
+            
+    
+    
+    
+            <!-- #PROJECTS -->
+    
+      <header>
+        <h2 class="h2 article-title">Projects</h2>
+      </header>
+    
+      <section class="projects">
+        <ul class="project-list">
+          <!-- Project 1:HR Analysis (Power BI) -->
+    <li class="project-item active" data-filter-item="">
+      <a href="https://github.com/Sihitavi/hr-dashboard" target="_blank">
+        <figure class="project-img">
+          <!-- <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div> 
+          -->
+          <img src="./assets/images/HR Analysis.jpg" alt="Flight Price Prediction" loading="lazy">
+          <figcaption class="project-description">
+           
+            <p>The HR Analysis Power BI project focused on cleaning employee data and using DAX functions to calculate key metrics. Interactive reports were created to provide insights into retention, performance, and diversity.</p>
+          </figcaption>
+          <div class="project-title-container">
+            <h3 class="project-title">HR Analysis (Power BI)</h3>
+          </div>
+        </figure>
+      </a>
+    </li>
+    
+    <!-- Project 2: Sales Report Analysis -->
+    <li class="project-item active" data-filter-item="">
+      <a href="https://github.com/Sihitavi/flight-price" target="_blank">
+        <figure class="project-img">
+          <img src="./assets/images/fly.webp" alt="Sales Report Analysis" loading="lazy">
+          <figcaption class="project-description">
+            <p>The Flight Price Prediction project uses Python and Machine Learning to predict airfare based on factors like airline, travel date, duration, and number of stops, helping users make informed booking decisions.</p>
+          </figcaption>
+        </figure>
+        <div class="project-title-container">
+          <h3 class="project-title">Flight Price Prediction (Python)</h3>
+        </div>
+      </a>
+    </li>
+    
+    
+    <!-- Project 3: Sales Report Analysis -->
+    <li class="project-item active" data-filter-item="">
+      <a href="https://github.com/Sihitavi/store-analysis" target="_blank">
+        <figure class="project-img">
+          <img src="./assets/images/Retail sales excel.jpg" alt="Sales Report Analysis" loading="lazy">
+          <figcaption class="project-description">
+           
+            <p>This project focuses on cleaning and analyzing sales data in Excel, uncovering trends, top products, and generating insights for business decisions.</p>
+          
+          </figcaption>
+          <div class="project-title-container">
+            <h3 class="project-title">Store Sales Analysis (Excel)</h3>
+          </div>
+        </figure>
+      </a>
+    </li>
+    
+    
+    
+    
+    <!-- Project 4: CHATBOT Support For Agriculture -->
+    <li class="project-item active" data-filter-item="">
+      <a href="#" target="_blank">
+        <figure class="project-img">
+          <img src="./assets/images/Pests-and-Diseases.png" alt="HR Analysis" loading="lazy">
+          <figcaption class="project-description">
+            <!-- <h3 class="project-title">HR Analysis</h3>-->
+            <p>A machine learning-based system that detects and classifies plant leaf diseases using image processing and deep learning, helping farmers take timely action to improve crop health.</p>
+          </figcaption>
+          <div class="project-title-container">
+            <h3 class="project-title">Plant Leaf Disease Detection Using Machine Learning</h3>
+          </div>
+        </figure>
+      </a>
+    </li>  
+    
+    <!-- Project 5: smoke   -->
+    <li class="project-item active" data-filter-item="">
+      <a href="https://github.com/Sihitavi/smoke" target="_blank">
+        <figure class="project-img">
+          <img src="./assets/images/smoke.avif" alt="Task Manager CLI Application" loading="lazy">
+          <figcaption class="project-description">
+           
+            <p>The Smoking Prediction using Machine Learning project analyzes demographic, health, and lifestyle data to predict whether an individual is a smoker using classification algorithms like Logistic Regression, Random Forest, or Neural Networks.</p>
+          </figcaption>
+          <div class="project-title-container">
+            <h3 class="project-title">Smoking Prediction</h3>
+          </div>
+        </figure>
+      </a>
+    </li> 
+    
+  <!-- Project 6: Retail Sales Analysis (SQL) 
+    <li class="project-item active" data-filter-item>
+      <a href="https://github.com/your-github-project6" target="_blank">
+        <figure class="project-img">
+          <img src="./assets/images/project-6.png" alt="Retail Sales Analysis SQL" loading="lazy">
+          <figcaption class="project-description">
+           
+            <p>This SQL project analyzes sales and customer behavior, providing insights on product performance and strategic decision-making.</p>
+          </figcaption>
+          <div class="project-title-container">
+            <h3 class="project-title">Retail Sales Analysis (SQL)</h3>
+          </div>
+        </figure>
+      </a>
+    </li>-->
+          
+        </ul>
+      </section>
+    
+    
+      <section class="training-courses">
+        <h3 class="h3 skills-title">Training and Courses</h3>
+        <ul class="skills-list content-card">
+    
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5"> Data Science Master Program</h5>
+              <div class="cert-date">
+                <a href="./assets/images/data science.pdf" target="_blank">View Certificate</a>
+                <span> Nov 2024</span>
+              </div>
+            </div>
+          </li>
+            
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Excel Training</h5>
+              <div class="cert-date">
+                <a href="./assets/images/exel.pdf" target="_blank">View Certificate</a>
+                <span> Nov 2024</span>
+              </div>
+            </div>
+          </li>
+    
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Python Training</h5>
+              <div class="cert-date">
+                <a href="./assets/images/py.pdf" target="_blank">View Certificate</a>
+                <span> Nov 2024</span>
+              </div>
+            </div>
+          </li>
+    
+    
+    
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">SQL and VBA Training</h5> 
+              <div class="cert-date">
+                <a href="./assets/images/sql.pdf" target="_blank">View Certificate</a>
+                <span> Nov 2024</span>
+              </div>
+            </div>
+          </li>
+      
+          
+    
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Power BI Traininig</h5>
+              <div class="cert-date">
+                <a href="./assets/images/powerbi.pdf" target="_blank">View Certificate</a>
+                <span> Nov 2024</span>
+              </div>
+            </div>
+          </li>
+      
+    
+        
+          <!-- Additional training or courses can be added here -->
+        </ul>
+      </section>
+      
+          </article>
+             
+          <!-- Resume Section -->
+          <article id="resume" class="section" data-page="resume">
+            <header>
+              <h2 class="h2 article-title">Resume</h2>
+            </header>
+            <section>
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline" role="img" class="md hydrated" aria-label="book outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Education</h3>
+              </div>
+    
+              <ol class="timeline-list">
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Bachelor of Computer Science. </h4>
+                  <span>Government Engineering College Kushalnagar.</span>
+                  <span>2020 — 2024</span>
+                  <span>CGPA-8.23</span>
+                  <!--             
+                   <p class="timeline-text">
+                    Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                    quas molestias
+                    exceptur.
+                  </p>
+                     -->
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Pre-University College,Science(PCMB).</h4>
+                  <span>Navkis PU Academy,Mysore.</span>
+            
+                  <span>Percentage-89</span>
+    
+                  <!--<p class="timeline-text">
+                    Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                    omnis..
+                  </p>  -->
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Secondary School Living Certificate.</h4>
+                  <span>S N Public School,Kanakapura.</span>
+                  
+                  <span>Percentage-95</span>
+                  <!--
+                  <p class="timeline-text">
+                    Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                    magni dolores
+                    eos.
+                  </p>
+                  -->
+                  
+    
+                </li>
+    
+              </ol>
+              
+            </section>
+    
+            <section class="timeline">
+    
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline" role="img" class="md hydrated" aria-label="book outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Work Experience</h3>
+              </div>
+    
+              <ol class="timeline-list">
+                 
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Data Analyst - Intern || Besant Technologies, Rajajinagar</h4>
+    
+                  <span>Jun 2024 - Present </span>
+    
+                  <p class="timeline-text" style="padding-left: 20px;">
+                    • Analyzed and visualized data using Python, SQL, Power BI, Excel, and VBA, enhancing data-driven decision-making and improving efficiency by 20%.<br>
+                    • Automated data cleaning and processing tasks using VBA, reducing manual effort by 15%.<br>
+                    • Built interactive Power BI dashboards and reports, improving reporting accuracy and delivering insights faster by 25%.<br>
+                    • Utilized advanced data manipulation techniques in SQL to improve query performance and reduce data retrieval time by 20%.<br>
+                    • Applied machine learning models in Python for predictive analysis, achieving solid results while focusing more on data insights and patterns.<br>
+                    • Conducted exploratory data analysis (EDA) to identify trends and inform strategic business decisions.<br>
+                  </p>
+    
+                </li>
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Full Stack Java Developer - Intern ||Techfortune Technologies, Mysuru.</h4>
+    
+                  <span>Aug 2023 - Sep 2023</span>
+    
+                  <p class="timeline-text" style="padding-left: 20px;">
+                   • Developed a full stack java application from scratch, including OOPs, Methods, Constructor, Exceptions.<br>
+                   • Utilized a SQL database to store and retrieve large datasets efficiently.<br>
+                   • Utilized HTML, CSS, and JavaScript to create a dynamic, interactive user interface that improved user experience.<br>
+                  </p>
+    
+                </li>
+                  <!--
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Web designer</h4>
+    
+                  <span>2010 — 2013</span>
+    
+                  <p class="timeline-text">
+                    Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                    quas molestias
+                    exceptur.
+                  </p>
+                  
+    
+                </li>
+                  -->
+              </ol>
+            
+            </section>
+    
+            <section class="skill">
+    
+              <h3 class="h3 skills-title">My skills</h3>
+    
+              <ul class="skills-list content-card">
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Python  </h5>
+                    <!-- <data value="80">80%</data>-->
+                  </div>
+    
+                  <!--
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+    
+                  -->
+                </li>
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">SQL (queries, joins, data manipulation)</h5>
+                  <!-- <data value="70">80%</data>-->
+                  </div>
+    
+                  <!-- <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                  -->
+    
+                </li>
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Excel(Advanced functions, PivotTables)</h5>
+                    <!-- <data value="90">70%</data> -->
+                  </div>
+    
+                  <!-- <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                  </div> 
+                  -->
+    
+                </li>
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Power BI</h5>
+                   <!--  
+                    <data value="50">70%</data> 
+                    -->  
+                  </div>
+    
+                  <!-- <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                  </div> 
+                  -->
+    
+                </li>
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">VBA(Macros)</h5>  
+                  </div>
+                </li>
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML/CSS</h5>  
+                  </div>
+                </li>
+    
+    
+              </ul>
+              <h3 class="h3 skills-title">Technical Skills</h3>
+    
+          <ul class="skills-list content-card">
+    
+            <li class="skills-item">
+    
+              <div class="title-wrapper">
+                <h5 class="h5">Strong Communication</h5>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Problem Solving</h5>
+                 </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Attention to Details</h5>
+               </div>
+               </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                   <h5 class="h5">Time Management</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+             
+          </li></ul>
+    
+       
+      <li class="skills-item"></li>
+          <h3 class="h3 skills-title">Interests</h3>
+    
+          <ul class="skills-list content-card">
+    
+            <li class="skills-item">
+    
+              <div class="title-wrapper">
+                <h5 class="h5">Playing outdoor games</h5>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Listening and Singing Song </h5>
+                 </div>
+            </li>
+            <!--
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Problem Solving</h5>
+               </div>
+               </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                   <h5 class="h5">Attention to Details</h5>
+                </div>
+              </li>
+            -->
+          
+          </ul>
+          
+          <li class="skills-item"></li>
+          <h3 class="h3 skills-title">Language Fluency</h3>
+    
+          <ul class="skills-list content-card">
+    
+            <li class="skills-item">
+    
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Kannada</h5>
+                 </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hindi (Intermediate)</h5>
+               </div>
+          </li>
+          </ul>
+         <!--  <section class="training-courses">
+            <h3 class="h3 skills-title">Training and Courses</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Analytics with Python</h5>
+                  <a href="https://www.example.com/certificate-link" target="_blank">View Certificate</a>
+                  <span> Dec 2024</span>
+                </div>
+              </li>
+          
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Power BI Advanced Course </h5>
+                  <a href="https://www.example.com/certificate-link" target="_blank">View Certificate</a>
+                  <span> Nov 2024</span>
+                </div>
+              </li>
+          
+              
+            </ul>
+          </section>-->
+          
+      </section></article>
+    
+          
+          <!-- Contact Section 
+          <article id="contact" class="section" data-page="contact">
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+        
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77492875466!2d77.30126945310806!3d12.954459531495921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1732800322940!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+            </section>
+        
+            <section class="contact-form">
+                <h3 class="h3 form-title">Contact Form</h3>
+        
+                <form action="https://formspree.io/f/xvgonovw" method="POST" class="form" data-form>
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                    </div>
+        
+                    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+        
+                    <button class="form-btn" type="submit">
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </section>
+        </article>
+        
+      </main>
+    
+      <script>
+        const navLinks = document.querySelectorAll(".navbar-link");
+        const sections = document.querySelectorAll(".section");
+    
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            const target = link.getAttribute("data-nav-link");
+    
+            // Remove active class from all links and sections
+            navLinks.forEach((btn) => btn.classList.remove("active"));
+            sections.forEach((section) => section.classList.remove("active"));
+    
+            // Add active class to the clicked link and corresponding section
+            link.classList.add("active");
+            document.getElementById(target).classList.add("active");
+          });
+        });
+      </script> -->
+       <!-- Contact Section -->
+    <article id="contact" class="section" data-page="contact">
+      <header>
+          <h2 class="h2 article-title">Contact</h2>
+      </header>
+    
+      <section class="mapbox" data-mapbox="">
+          <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77492875466!2d77.30126945310806!3d12.954459531495921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1732800322940!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+      </section>
+    
+    
+
+<section class="contact-form">
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form id="contact-form" class="contact-left login-form form">
+      <div class="contact-left-title input-wrapper">
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs form-input" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact-inputs form-input" required>
+          <input type="text" name="number" placeholder="Your Number" class="contact-inputs form-input" required pattern="\d{10}" title="Enter a valid 10-digit number">
+      </div>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs form-input" required></textarea>
+
+      <button class="form-btn submit" type="submit">
+          <ion-icon name="paper-plane"></ion-icon>
+          <span>Send Message</span>
+      </button>
+  </form>
+
+  
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+ 
+
+<script>
+  $(document).ready(function () {
+      emailjs.init("wQPw9dvDA49DJv8FI"); // Replace with your EmailJS Public Key
+
+      $("#contact-form").on("submit", function (event) {
+          event.preventDefault();
+
+          emailjs.sendForm("service_x3yfd5l", "template_kwwp78n", "#contact-form")
+              .then(() => {
+                  alert("Your mail is sent!");
+                  $("#contact-form")[0].reset();
+              })
+              .catch((error) => {
+                  alert("Oops... " + JSON.stringify(error));
+              });
+      });
+  });
+</script>
+          
+    <script>
+      // Existing Navbar Scroll Behavior
+      const navLinks = document.querySelectorAll(".navbar-link");
+      const sections = document.querySelectorAll(".section");
+    
+      navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+              const target = link.getAttribute("data-nav-link");
+    
+              // Remove active class from all links and sections
+              navLinks.forEach((btn) => btn.classList.remove("active"));
+              sections.forEach((section) => section.classList.remove("active"));
+    
+              // Add active class to the clicked link and corresponding section
+              link.classList.add("active");
+              document.getElementById(target).classList.add("active");
+          });
+      });
+    
+      // Sidebar Toggle Functionality
+      document.querySelector('[data-sidebar-btn]').addEventListener('click', function() {
+        document.querySelector('.sidebar').classList.toggle('active');
+      });
+    </script>
+    
+    
+    
+    
+    
+    </div></main>
+    
+</body>
+</html>
